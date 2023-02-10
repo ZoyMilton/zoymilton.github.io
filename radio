@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zoy ¡Cine y TV en español!</title>
+<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+</head>
+<body topmargin="0">
+
+     <script src="js/jquery-3.2.1.min.js"></script><script src="js/lunaradio.min.js"></script>
+		<p><div id="lunaradio" style="width:100%; height:945px;"></div></p>
+
+<link rel="icon" type="image/jpg" href="https://cloud.astian.org/share/KfoMFABCgXHeYGJq/direct"/>
+
+<script> $("#lunaradio")
+.lunaradio({ 
+     userinterface: "big",
+	backgroundcolor: "#5f1c86",
+	fontcolor: "#ffffff",
+	hightlightcolor: "#7DADC8",
+	fontname: "arial",
+	googlefont: "Unica+One&display=swap",
+	fontratio: "1",
+        backgroundImage: "",
+	radioname: "Señal en Directo",
+	scroll: "true",
+	coverimage: "https://cloud.operationtulip.com/s/4YdA3jEbQTyMWi2/preview",
+	usevisualizer: "real",
+	coverstyle: "animated",
+	visualizertype: "4",
+	multicolorvisualizer: "true",
+    color1: "#f6f6f6",
+    color2: "#323edd",
+    color3: "#fc5404",
+    color4: "#fa225b",
+	itunestoken: "1000lIPN",
+	metadatatechnic: "corsproxy",
+	ownmetadataurl: "",
+	streamurl: "https://icepool.silvacast.com/GAYFM.mp3?aw_0_req.userConsentV2=CPmqEAAPmqEAAAFADBDEC2CsAP_AAAAAAAYgG4QFAACAAVABBACcAKIAWABaADIAIQATwA3ACuAGqAQgAiYB-wEVALaAXmAvYBiIDcAAAAEhIAMAAQNwDQAYAAgbgIgAwABA3AVABgACBuAyADAAEDcB0AGAAIG4EoAMAAQNwKQAYAAgbgQgAwABA3AA.YAAAAAAAAAAA",
+	streamtype: "",
+	icecastmountpoint: "",
+	radionomyid: "",
+	radionomyapikey: "",
+	radiozenoid: "",
+	radiojarid: "",
+	radiocoid: "",
+	shoutcastpath: "/stream",
+	shoutcastid: "1",
+	streamsuffix: "",
+	metadatainterval: "20000",
+	volume: "100",
+	debug: "false",
+	usestreamcorsproxy: "false", 
+	corsproxy: "https://corsradio.herokuapp.com/index.php?q=",
+	autoplay:"true",
+	}); 
+</script>
+   
+</body>
+</html>
