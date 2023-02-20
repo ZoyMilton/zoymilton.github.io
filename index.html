@@ -18,41 +18,39 @@
         <p>ZoyTV+ ¡es gratis y en español!</p>
         <p>Comunícate 👉 Whatsapp</P>
         </center>
-
-</head>
-<body>
     
-   <!-- Player -->
-   <main class="player">
-       <source type="application/x-mpegurl" src="https://linear-328.frequency.stream/dist/localnow/328/hls/master/playlist.m3u8" poster="https://raw.githubusercontent.com/ZoyMilton/zoymilton.github.io/main/IMG/poster.jpg" class="video">
-                    
-    <!-- FIN Player 2 -->
-    </div>
-       
-       
-       
-       
-       
-       
-       <!-- Controls -->
-       <nav class="controls">
-           <button class="button play">
-               <i class="fas fa-play"></i>
-           </button>
-           <button class="button stop">
-               <i class="fas fa-stop"></i>
-           </button>
-           <input type="range" min="0" max="100" step="0.1" value="0" class="progress">
-           <small class="timestamp">
-               00:00
-           </small>
-       </nav>
-   </main>
+    
+    <!-- Streaming zoy.tv html5 player -->
+<!-- Licencia: Whatsapp +59160733371-->
+<link rel="stylesheet" href="https://releases.flowplayer.org/7.0.4/skin/skin.css"><link rel="stylesheet" href="https://cp.usastreams.com/playerHTML5/flowdemo.css"><link rel="stylesheet" href="https://cp.usastreams.com/playerHTML5/pygments.css">
+<script
+    type="text/javascript"
+    src ="https://cp.usastreams.com/playerHTML5/ContadorVideo.js">
+</script>
 
-   
+<style>
+    .flowplayer {background-color: #b30ec9;}
+    .flowplayer .fp-color-play {fill: #eee;}
+</style>
 
-   <!-- Favicon -->
-   <link rel="icon" type="image/jpg" href="https://images-na.ssl-images-amazon.com/images/I/41foZ-6WgqL.png"/>
-   
-</body>
-</html>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js">
+
+</script>
+
+<script
+    src="https://releases.flowplayer.org/7.0.4/flowplayer.min.js">
+</script>
+
+<script
+    src="https://releases.flowplayer.org/hlsjs/flowplayer.hlsjs.min.js">
+</script>
+
+<div data-live="true" data-ratio="0.5625" class="flowplayer">    
+    <video
+        data-title="Live stream"
+        data-ratio="0.5625"
+        autoplay controls poster='' >
+            <source type="application/x-mpegurl" src="https://linear-328.frequency.stream/dist/localnow/328/hls/master/playlist.m3u8">
+    </video>
+</div>
+<!-- Fin. www.zoy.tv html5 player -->
